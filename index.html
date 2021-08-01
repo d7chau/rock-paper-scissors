@@ -1,14 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html class = "background">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <main>
+      <h1 class = "header">ROCK PAPER SCISSORS</h1>
+      <div class = "card-container">
+        <div class = card-imgs>
+          <img src ="images/rock.png" alt="Rock" class="rock-img"/>
+          <h3 class = "rock-text">Rock</h3>
+        </div>
+        <div class = card-imgs>
+          <img src ="images/paper.png" alt="Paper" class="paper-img"/>
+          <h3 class = "paper-text">Paper</h3>
+        </div>
+        <div class = card-imgs>
+          <img src ="images/scissors.png" alt="Scissors" class="scissors-img"/>
+          <h3 class = "scissors-text">Scissors</h3>
+        </div>
+      </div>
+
+      <!-- <div class = scoreboard>
+        <h2>Player</h2>
+        <h2>Computer</h2>
+      </div> -->
       <script src="script.js"></script>
     </main>
   </body>

@@ -1,0 +1,70 @@
+.background{
+    background-color: rgb(243, 243, 243);
+}
+
+.header{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 75px;
+    color: black;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.4rem;
+}
+
+.rock-img{
+    height: 250px;
+    width: 250px;
+    margin: auto 80px auto 80px;
+
+}
+
+.paper-img{
+    height: 250px;
+    width: 300px;
+    margin: auto 80px auto 80px;
+
+}
+
+.scissors-img{
+    height: 250px;
+    width: 300px;
+    margin: auto 80px auto 80px;
+
+}
+
+.card-imgs{
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-imgs:hover {
+    top: -5px;
+}
+
+.rock-text{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    /* line-height: 70px; */
+}
+
+.paper-text{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.scissors-text{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}

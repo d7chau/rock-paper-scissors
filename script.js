@@ -46,22 +46,22 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game() {
-  while (playerScore != 5 && computerScore != 5) {
-    let playerSelection = prompt("Rock, Paper, or Scissors?");
-    let computerSelection = computerPlay();
-    let roundResult = playRound(playerSelection, computerSelection);
+  // while (playerScore != 5 && computerScore != 5) {
+  //   let playerSelection = prompt("Rock, Paper, or Scissors?");
+  //   let computerSelection = computerPlay();
+  //   let roundResult = playRound(playerSelection, computerSelection);
 
-    console.log(roundResult);
+  //   console.log(roundResult);
 
-    if (roundResult.search("You Win the Round!") > -1) {
-      playerScore++;
-    } else if (roundResult.search("You Lose the Round!") > -1) {
-      computerScore++;
-    }
-    console.log("Player Score: " + playerScore);
-    console.log("Computer Score: " + computerScore);
-    console.log("\n");
-  }
+  //   if (roundResult.search("You Win the Round!") > -1) {
+  //     playerScore++;
+  //   } else if (roundResult.search("You Lose the Round!") > -1) {
+  //     computerScore++;
+  //   }
+  //   console.log("Player Score: " + playerScore);
+  //   console.log("Computer Score: " + computerScore);
+  //   console.log("\n");
+  // }
 
   if (playerScore > computerScore) {
     console.log("You Win the Game!");
