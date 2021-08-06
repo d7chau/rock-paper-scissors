@@ -5,45 +5,49 @@
 .header{
     font-family: 'Londrina Solid', cursive;
     font-size: 75px;
-    color: black;
+    color: rgb(180, 168, 0);
     text-align: center;
 }
 
-.card-container{
+.btn-container{
     display: flex;
+    flex-direction:row;
     align-items: center;
     justify-content: center;
     margin-top: 2.4rem;
 }
 
 .rock-img{
-    height: 250px;
+    /* height: 250px; */
+    height: auto;
     width: 250px;
     margin: auto 80px auto 80px;
-
+    max-width:100%;
 }
 
 .paper-img{
-    height: 250px;
+    /* height: 250px; */
+    height: auto;
     width: 300px;
     margin: auto 80px auto 80px;
-
+    max-width:100%;
 }
 
 .scissors-img{
-    height: 250px;
+    /* height: 250px; */
+    height: auto;
     width: 300px;
     margin: auto 80px auto 80px;
-
+    max-width:100%;
 }
 
-.card-imgs{
+.btn-img{
     margin-bottom: 10px;
     cursor: pointer;
     position: relative;
 }
 
-.card-imgs:hover {
+.btn-img:hover {
     top: -5px;
 }
 
@@ -67,4 +71,51 @@
     font-size: 30px;
     color: black;
     text-align: center;
+}
+
+.score-text-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.4rem;
+}
+
+.score-text-header{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 40px;
+    color: rgb(180, 168, 0);
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+
+.score-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-selection{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    margin: 0px 70px 0px 60px;
+}
+
+.computer-selection{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    margin: 0px 60px 0px 60px;
+}
+
+.score-info{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin: 15px 60px 0px 60px;
 }

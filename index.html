@@ -13,25 +13,35 @@
   <body>
     <main>
       <h1 class = "header">ROCK PAPER SCISSORS</h1>
-      <div class = "card-container">
-        <div class = card-imgs>
-          <img src ="images/rock.png" alt="Rock" class="rock-img"/>
+      <div class = "btn-container">
+        <div class = btn-img>
+          <img src ="images/rock.png" alt="Rock" class="rock-img" id="rockBtn"/>
           <h3 class = "rock-text">Rock</h3>
         </div>
-        <div class = card-imgs>
-          <img src ="images/paper.png" alt="Paper" class="paper-img"/>
+        <div class = "btn-img">
+          <img src ="images/paper.png" alt="Paper" class="paper-img" id="paperBtn"/>
           <h3 class = "paper-text">Paper</h3>
         </div>
-        <div class = card-imgs>
-          <img src ="images/scissors.png" alt="Scissors" class="scissors-img"/>
+        <div class = "btn-img">
+          <img src ="images/scissors.png" alt="Scissors" class="scissors-img" id="scissorsBtn"/>
           <h3 class = "scissors-text">Scissors</h3>
         </div>
       </div>
 
-      <!-- <div class = scoreboard>
-        <h2>Player</h2>
-        <h2>Computer</h2>
-      </div> -->
+      <div class = "score-text-container">
+        <h2 class = "score-text-header">PLAYER</h2>
+        <h2 class = "score-text-header">COMPUTER</h2>
+      </div>
+
+      <div class = "score-container">
+        <p class = "player-selection" id="playerScore">0</p>
+        <p class = "computer-selection" id="computerScore">0</p>
+      </div>
+
+      <div>
+        <p class="score-info" id="scoreInfo"></p>
+      </div>
+
       <script src="script.js"></script>
     </main>
   </body>
